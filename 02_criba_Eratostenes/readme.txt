@@ -1,6 +1,5 @@
-<a href="http://www.solveet.com/exercises/Criba-de-Eratostenes-con-Test-Driven-Development-TDD/149">
-	Criba de Eratóstenes con Test-Driven Development (TDD)
-</a>
+	Criba de Eratóstenes con Test-Driven Development (TDD) 
+	http://www.solveet.com/exercises/Criba-de-Eratostenes-con-Test-Driven-Development-TDD/149
 
 Aunque el algoritmo de la Criba de Eratóstenes es bastante sencillo de implementar, 
 puede ser muy interesante desarrollarlo mediante TDD ya que nos da oportunidad de tomar algunas decisiones importantes y nos enseña 
