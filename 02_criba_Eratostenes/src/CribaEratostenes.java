@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -9,7 +8,7 @@ import java.util.Set;
  *
  */
 
-public class CribaErastotenes {
+public class CribaEratostenes {
 
 	/**
 	 * Calculate the primes with the Eratosthenes Algorithm 

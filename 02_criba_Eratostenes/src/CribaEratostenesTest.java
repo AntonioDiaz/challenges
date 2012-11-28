@@ -8,7 +8,7 @@ import org.apache.commons.lang.ArrayUtils;
 import org.junit.Test;
 
 
-public class CribaErastotenesTest {
+public class CribaEratostenesTest {
 
 	@Test
 	public void testPrimes() {
@@ -21,9 +21,9 @@ public class CribaErastotenesTest {
 		Set<Integer> set3 = new HashSet<Integer>(Arrays.asList(primesOf3));
 		Set<Integer> set30 = new HashSet<Integer>(Arrays.asList(primesOf30));
 		Set<Integer> set120 = new HashSet<Integer>(Arrays.asList(primesOf120));
-		assertTrue(CribaErastotenes.primes(2).equals(set2));
-		assertTrue(CribaErastotenes.primes(3).equals(set3));
-		assertTrue(CribaErastotenes.primes(30).equals(set30));
-		assertTrue(CribaErastotenes.primes(120).equals(set120));
+		assertTrue(CribaEratostenes.primes(2).equals(set2));
+		assertTrue(CribaEratostenes.primes(3).equals(set3));
+		assertTrue(CribaEratostenes.primes(30).equals(set30));
+		assertTrue(CribaEratostenes.primes(120).equals(set120));
 	}
 }
