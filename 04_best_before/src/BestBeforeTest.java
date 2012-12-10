@@ -15,6 +15,9 @@ public class BestBeforeTest {
 		input = "12/11/10";
 		output = "2010-11-12";		
 		assertEquals(output, BestBefore.calculateBestDate(input));
+		input = "31/05/2012";
+		output = "2012-05-31";		
+		assertEquals(output, BestBefore.calculateBestDate(input));
 		input = "2012/02/29";
 		output = "2012-02-29";		
 		assertEquals(output, BestBefore.calculateBestDate(input));
@@ -23,6 +26,9 @@ public class BestBeforeTest {
 		assertEquals(output, BestBefore.calculateBestDate(input));
 		input = "31/5/2012";
 		output = "2012-05-31";		
+		assertEquals(output, BestBefore.calculateBestDate(input));
+		input = "01/01/2000";
+		output = "2000-01-01";		
 		assertEquals(output, BestBefore.calculateBestDate(input));
 	}
 }

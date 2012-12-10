@@ -59,7 +59,7 @@ public class BestBefore {
 			for (int[] posibilities : permutations) {
 				Date myDate = BestBefore.transformDate(numbers[posibilities[0]], numbers[posibilities[1]], numbers[posibilities[2]]);
 				/* Check if the date is on rage, that is between the 01/01/2000 and the 31/12/2999. */
-				if (myDate!=null && myDate.compareTo(minDate)>0 && myDate.compareTo(maxDate)<0){
+				if (myDate!=null && myDate.compareTo(minDate)>=0 && myDate.compareTo(maxDate)<=0){
 					if (lowestDate==null || lowestDate.compareTo(myDate)>0) {
 						lowestDate = myDate;
 					}
