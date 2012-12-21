@@ -53,9 +53,20 @@ public class PasswordProblem {
 	private List<Float> probabilites;
 	private Integer passwordLength;
 	
-
 	public Float calculateProbabilities (){
 		return 0f;
+	}
+	
+	private Float keepTyping(){
+		return null;
+	}
+	
+	private float[] backSpaces(){
+		return null;
+	}
+	
+	private Float pressEnter(){
+		return null;
 	}
 	
 	
